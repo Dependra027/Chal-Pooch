@@ -190,13 +190,13 @@ Feel free to modify, extend, and share it.
 
 ## 👨‍💻 Author
 
-**[Your Name]** – Developer & Tech Enthusiast
-🌐 [YourPortfolio.com](https://your-portfolio.com)
-📫 [hello@your-email.com](mailto:hello@your-email.com)
+Dependra Singh – Developer & Tech Enthusiast
+🌐 [YourPortfolio.com](https://dependrasingh027.netlify.app/)
+📫 [hello@your-email.com](mailto:dependrasingh027@gmail.com)
 
 ---
 
 ## 🌐 Links
 
-* Live Demo: 
+* Live Demo: https://chal-pooch-biuem0n9p-dependra-singhs-projects.vercel.app/
 
