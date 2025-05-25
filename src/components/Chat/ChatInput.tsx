@@ -63,7 +63,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ value, onChange, onSend, isLoadin
 export default ChatInput;
 
 //notes
-
+/*
 This `ChatInput.tsx` component is a reusable **React functional component** used for managing and rendering the chat input section of your app. It includes a `<textarea>` for input, a send button, and some helper text. Below is a **line-by-line breakdown** of how it works and what each part does.
 
 ---
@@ -224,4 +224,5 @@ const ChatInput: React.FC<ChatInputProps> = ({ value, onChange, onSend, isLoadin
 | `isLoading`      | Disables input during API calls                 |
 | `onSend`         | Passed from parent, sends the chat message      |
 
+*/
 
