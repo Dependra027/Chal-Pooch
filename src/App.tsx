@@ -61,18 +61,20 @@ function App() {
     const newUserMessage = { type: 'user' as const, content: question };
     setMessages(prev => [...prev, newUserMessage]);
     setQuestion("");
-    
+
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+
     try {
       const response = await axios({
-        url: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBbgL31esH2Kikw07l9ZWBlMbHmndETbxY',
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
         method: "post",
         data: { 
           contents: [
-            {parts: [{text: question}]},
+            { parts: [{ text: question }] },
           ],
         },
       });
-      
+
       const assistantResponse = response.data.candidates[0].content.parts[0].text;
       setMessages(prev => [...prev, { type: 'assistant', content: assistantResponse }]);
     } catch (error) {
@@ -109,10 +111,8 @@ function App() {
             <div className="messages-container">
               {messages.length === 0 ? (
                 <div className="empty-state">
-                <h2>🤖 Welcome to Chal P👀ch!</h2>
-<p>Your smart, sassy AI buddy is here — ready to drop facts, crack jokes, and solve anything you throw at me. Pick a trending vibe or hit me with something fresh!</p>
-
-
+                  <h2>🤖 Welcome to Chal P👀ch!</h2>
+                  <p>Your smart, sassy AI buddy is here — ready to drop facts, crack jokes, and solve anything you throw at me. Pick a trending vibe or hit me with something fresh!</p>
                 </div>
               ) : (
                 messages.map((message, index) => (
