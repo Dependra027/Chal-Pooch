@@ -3,14 +3,7 @@
 
 > "Chal Pooch Ai" is a modern, responsive, AI-powered chatbot interface built with **React**, **TypeScript**, and **Tailwind CSS**, and uses **Google's Gemini API** to generate intelligent conversational responses. Designed for speed, simplicity, and an interactive user experience.
 
----
 
-## 📸 Preview
-
-![Preview Screenshot](public/preview.png)
-*(You can update this with an actual screenshot or deploy preview)*
-
----
 
 ## 🎯 Objective
 
@@ -191,8 +184,8 @@ Feel free to modify, extend, and share it.
 ## 👨‍💻 Author
 
 Dependra Singh – Developer & Tech Enthusiast
-🌐 [YourPortfolio.com](https://dependrasingh027.netlify.app/)
-📫 [hello@your-email.com](mailto:dependrasingh027@gmail.com)
+🌐 [MyPortfolio.com](https://dependrasingh027.netlify.app/)
+📫 [hello@dependra](mailto:dependrasingh027@gmail.com)
 
 ---
 
